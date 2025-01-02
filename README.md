@@ -1,5 +1,5 @@
-# A list of python projects
+## A list of python projects
 
-## Madlibs
-
-## GuessingNumber
+1. Madlibs
+1. GuessingNumber
+1. Rock Paper Scissors
