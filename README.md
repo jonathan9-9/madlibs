@@ -3,3 +3,4 @@
 - [x] Madlibs
 - [x] GuessingNumber
 - [x] Rock Paper Scissors
+- [x] Password Generator
