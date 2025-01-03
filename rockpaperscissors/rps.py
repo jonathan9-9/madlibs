@@ -43,6 +43,13 @@ class RPS:
             print("AI wins...")
 
 
+if __name__ == "__main__":
+    rps = RPS()
+
+    while True:
+        rps.play_game()
+
+
 """
 An example using positional arguments and keyword arguments in functions
 that contain dynamic parameters
