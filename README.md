@@ -2,4 +2,4 @@
 
 - [x] Madlibs
 - [x] GuessingNumber
-- [ ] Rock Paper Scissors
+- [x] Rock Paper Scissors
