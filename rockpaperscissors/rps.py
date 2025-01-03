@@ -7,7 +7,7 @@ class RPS:
     def __init__(self):
         print("Welcome to RPS!")
 
-        self.moves: dict = {"rock": "🪨", "scissors": "✂️", "paper": "📜"}
+        self.moves: dict = {"rock": "🪨", "scissors": "✄", "paper": "📜"}
         self.valid_moves: list[str] = list(self.moves.keys())
 
     def play_game(self):
@@ -27,10 +27,20 @@ class RPS:
         print("----")
         print(f"You: {self.moves[user_move]}")
         print(f"AI: {self.moves[ai_move]}")
+        print("----")
 
 # Complete check_move and logic
     def check_move(self, user_move: str, ai_move: str):
-        ...
+        if user_move == ai_move:
+            print("It\'s a tie!")
+        elif user_move == "rock" and ai_move == "scissors":
+            print("You win!")
+        elif user_move == "scissors" and ai_move == "paper":
+            print("You win!")
+        elif user_move == "paper" and ai_move == "rock":
+            print("You win!")
+        else:
+            print("AI wins...")
 
 
 """
