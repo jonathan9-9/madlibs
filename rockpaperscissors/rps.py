@@ -11,7 +11,7 @@ class RPS:
         self.valid_moves: list[str] = list(self.moves.keys())
 
     def play_game(self):
-        user_move: str = input("Rock, paper, or scissors? >>").lower()
+        user_move: str = input("Rock, paper, or scissors? (exit) >> ").lower()
         if user_move == "exit":
             print("Exiting...")
             sys.exit()
