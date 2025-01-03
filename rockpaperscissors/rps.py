@@ -28,7 +28,7 @@ class RPS:
         print(f"You: {self.moves[user_move]}")
         print(f"AI: {self.moves[ai_move]}")
 
-# Complete check_move
+# Complete check_move and logic
     def check_move(self, user_move: str, ai_move: str):
         ...
 
